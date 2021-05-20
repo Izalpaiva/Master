@@ -1,5 +1,5 @@
 %This routine is to previous analyzis of data.
-%Author : Izabeba Lima Paiva 
+%Author : Izabela Lima Paiva 
 clear 
 clc
 addpath 'E:\Mestrado\CODE\Functions' %set the path with additional functions
@@ -10,8 +10,8 @@ cd      'E:\Mestrado\OpenEphysTest1\2021-04-19_17-10-37\Record Node 110' %Set th
 load 'LFPs' 
 srate   = 1000;
 window  = 1*srate;
-overlap = [];      % O padr„o de overlap È de 50% de sobreposiÁ„o entre as janelas.
-NFFT    = 2^13;    % Padr„o para an·lises.
+overlap = [];      % O padr√£o de overlap √© de 50% de sobreposi√ß√£o entre as janelas.
+NFFT    = 2^13;    % Padr√£o para an√°lises.
 
 
 for i = 1:24

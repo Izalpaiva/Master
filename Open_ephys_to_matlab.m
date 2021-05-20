@@ -1,5 +1,5 @@
 %This routine is to convert the continuous files from OpenEphys(OE)to Matlab. Uses a function from the OpenEphys guide. 
-%Author : Izabeba Lima Paiva 
+%Author : Izabela Lima Paiva 
 clear 
 clc
 addpath 'E:\Mestrado\CODE\Functions' %set the path with additional functions
